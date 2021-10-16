@@ -16,7 +16,8 @@ public class EmailVal{
         this.expectedResult = result;
     }
     @Parameterized.Parameters
-    public static Collection input(){
+    public static Collection input()
+    {
         return Arrays.asList(new Object[][] { {"abc@yahoo.com",true},
                 {"abc-100@yahoo.com",true},
                 {"abc.100@yahoo.com",true},
